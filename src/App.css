@@ -1,0 +1,44 @@
+*{
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+
+}
+body{
+  width: 100vw;
+  height: 100vh;
+  background-color: rgba(0, 0, 0,0.07);
+}
+.main{
+  width: 50%;
+  height: 100%;
+ margin: 100px auto;
+background-color: rgb(255, 255, 255);
+text-align: center;
+border-radius: 10px;
+}
+.cont1{
+  
+  height: 100%;
+  width: 50vw;
+  display: flex;
+
+}
+.city,.climate{
+  width: 25vw;
+  text-align: center;
+  margin: 20px 0px;
+}
+.cont2{
+  height: 100%;
+  width: 50vw;
+  display: flex;
+}
+.sun,.wind,.co-ordinates{
+  width: 33.3%;
+  padding: 10px;
+  margin: 10px;
+}
+.inputs input{
+  margin: 20px auto;
+}
